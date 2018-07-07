@@ -5,7 +5,7 @@
 	Mail: info@obedalvarado.pw
 	---------------------------*/
 	# conectare la base de datos
-    $con=@mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+    $con=@mysqli_connect("http://mysql-articulo.7e14.starter-us-west-2.openshiftapps.com", "appadmin", "12345", "facturas");
     if(!$con){
         die("imposible conectarse: ".mysqli_error($con));
     }
