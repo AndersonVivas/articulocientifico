@@ -1,6 +1,6 @@
 <?php
 /*Datos de conexion a la base de datos*/
-define('DB_HOST', 'http://mysql-articulo.7e14.starter-us-west-2.openshiftapps.com/');//DB_HOST:  generalmente suele ser "127.0.0.1"
+define('DB_HOST', 'http://mysql-articulo.7e14.starter-us-west-2.openshiftapps.com');//DB_HOST:  generalmente suele ser "127.0.0.1"
 define('DB_USER', 'facturas');//Usuario de tu base de datos
 define('DB_PASS', '12345');//Contraseña del usuario de la base de datos
 define('DB_NAME', 'appadmin');//Nombre de la base de datos
